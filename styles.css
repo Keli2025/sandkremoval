@@ -215,3 +215,94 @@ footer {
   text-align: center;
   padding: 20px;
 }
+/* MOBILE ADJUSTMENTS */
+@media (max-width: 768px) {
+
+    /* GENERAL SPACING */
+    section {
+        padding: 50px 20px;
+    }
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0 10px;
+        font-size: 1rem;
+    }
+
+    .header-logo {
+        width: 120px;
+    }
+
+    /* HERO */
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        padding: 12px 18px;
+        font-size: 1rem;
+    }
+
+    /* PROJECTS GRID */
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-card {
+        padding: 18px;
+    }
+
+    /* HOW IT WORKS */
+    .how-steps {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .step {
+        padding: 20px;
+    }
+
+    .step-number {
+        font-size: 2rem;
+    }
+
+    /* SERVICES */
+    .services ul {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .services li {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    /* CONTACT */
+    .contact h2 {
+        font-size: 1.8rem;
+    }
+
+    /* FOOTER */
+    .site-footer {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+}
