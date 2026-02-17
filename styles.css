@@ -33,7 +33,7 @@ body {
   left: 20px;
   width: 180px; /* adjust size */
   height: 180px;
-  background: url("assetss&kremoval/s&klogo1.PNG") no-repeat center/contain;
+  background: url("assetss&kremoval/editedlogo1.PNG") no-repeat center/contain;
   opacity: 0.18; /* more vibrant than the big one */
   z-index: 9999; /* stays behind all content */
   pointer-events: none;
